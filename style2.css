@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alike&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: #000;
+}
+.abouthead {
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 8rem;
+}
+.abouthead,
+.homebtn {
+  font-family: "Acme", sans-serif;
+}
+
+.homebtn {
+  color: white;
+  top: 15%;
+  right: 10%;
+  position: absolute;
+  font-size: 23px;
+  /* font-family: ''; */
+}
+
+.homebtn #a {
+  position: absolute;
+  right: 0%;
+  z-index: 100;
+  font-family: "Acme", sans-serif;
+}
+
+.homebtn a #b {
+  /* display: none; */
+  position: absolute;
+  top: 15%;
+  right: 100%;
+  display: none;
+  transform: translateX(150%);
+  font-family: "Acme", sans-serif;
+}
+.homebtn a:hover #b {
+  position: fixed;
+  right: 15%;
+  animation: slide-in 0.5s forwards ease;
+  display: inline;
+}
+
+.homebtn a #a {
+  position: fixed;
+  right: 15%;
+  letter-spacing: 0.12em;
+}
+@keyframes slide-in {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.homebtn a #a,
+#b {
+  text-decoration: none;
+  color: white;
+}
+.aboutme {
+  position: relative;
+  color: white;
+  margin-top: 80vh;
+  justify-content: center;
+}
+.aboutme #img {
+  position: absolute;
+  margin-left: 4%;
+  width: auto;
+  height: 32rem;
+  z-index: 100;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.aboutmehead .head1 {
+  margin-top: 75vh;
+  color: white;
+  position: absolute;
+  text-align: justify;
+  left: 40%;
+  font-size: 3rem;
+  z-index: 101;
+  /* font-family: 'Acme', sans-serif!important; */
+}
+
+.aboutmehead .headcontent {
+  margin-top: 90vh;
+  color: white;
+  position: absolute;
+  /* text-align: justify; */
+  /* left: 20%; */
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 27%;
+  right: 27%;
+}
+.aboutmehead .head1 {
+  font-family: "Semibold";
+}
+.aboutmehead .headcontent {
+  font-family: "Regular1";
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("/Graphik-Font-Family/GraphikThin.otf");
+  src: url("/Graphik-Font-Family/GraphikThin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Regular1";
+  src: url("/Graphik-Font-Family/GraphikRegular.otf");
+  src: url("/Graphik-Font-Family/GraphikRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Semibold";
+  src: url("/Graphik-Font-Family/GraphikSemibold.otf");
+  src: url("/Graphik-Font-Family/GraphikSemibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+.aboutme #hr {
+  color: white;
+  width: 100%;
+  /* margin-left:47.5%; */
+  margin-top: 10%;
+  position: absolute;
+  border-bottom: 0.4px solid white;
+}
+.headcontent #top {
+  font-size: 1.7rem;
+}
+.headcontent #bottom {
+  font-size: 1.225rem;
+  margin-top: 35px;
+  font-family: "Regular1";
+  font-weight: bold;
+  text-align: justify;
+}
+.phara {
+  margin-bottom: 25px;
+  /* font-size :1.225rem;
+    text-align: justify; */
+}
+.phara ul {
+  margin-left: 10%;
+  line-height: 30px;
+  margin-top: 10px;
+  list-style-type: square;
+  /* font-size :1.225rem; */
+}
+.phara ul li a {
+  text-decoration: none;
+  color: white;
+}
+.phara ul li a .a2 {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 15%;
+  display: none;
+  transition: all 0.5s ease;
+}
+.phara ul li a:hover .a1 {
+  display: none;
+}
+.phara ul li a:hover .a2 {
+  display: inline;
+  color: #eb101e;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.resume a {
+  text-decoration: none;
+  color: #eb101e;
+}
+.resume #res2 {
+  position: absolute;
+  left: 0%;
+  display: none;
+  animation: slide-inn;
+  animation: slide-inn 0.5s forwards ease;
+  transform: translateX(0%);
+}
+.resume a:hover #res2 {
+  display: inline;
+}
+@keyframes slide-inn {
+  100% {
+    transform: translateX(10%);
+  }
+}
+.resume a:hover #res1 {
+  color: #000;
+}

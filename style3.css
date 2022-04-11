@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:#000;
+}
+.homebtn{
+    font-family: 'Acme', sans-serif;
+}
+.homebtn{
+    color:white;
+    top:15%;
+    right: 10%;
+    position: absolute;
+    font-size: 23px;
+
+    
+}
+.homebtn #a{
+    position: absolute;
+    right: 0%;
+    z-index: 100;
+    font-family: 'Acme', sans-serif;
+}
+.homebtn a #b{
+    /* display: none; */
+    position: absolute;
+    top:15%;
+    right: 100%;
+    display: none;
+    transform: translateX(150%);
+    font-family: 'Acme', sans-serif;
+    
+}
+.homebtn a:hover #b{
+    position: fixed;
+    right: 15%;
+    animation: slide-in 0.5s forwards ease;
+    display: inline;
+}
+
+.homebtn a #a{
+    position:fixed;
+    right: 15%;
+    letter-spacing: .12em;
+    
+}
+@keyframes slide-in {
+    100%{transform: translateX(100%);}  
+
+  }
+
+.homebtn a #a,#b{
+    text-decoration: none;
+    color:white;
+}
+#works{
+    position: absolute;
+    top:38%;
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    /* line-height: 139px; */
+    /* margin-bottom: 20px; */
+}
+@font-face {
+	font-family: 'Semibold';
+	src: url('/Graphik-Font-Family/GraphikSemibold.otf');
+	src: url('/Graphik-Font-Family/GraphikSemibold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;}
+.details{
+    color:#EB101E;
+    font-size:15px;line-height: 37px;
+}
+#works1{
+    position: absolute;
+    top:calc(40% + 235px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+}
+#works2{
+    position: absolute;
+    top:calc(40% + 470px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+}
+#works3{
+    position: absolute;
+    top:calc(40% + 705px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+}
+
+#works4{
+    position: absolute;
+    top:calc(40% + 940px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+}
+.allthe a{
+    text-decoration: none;
+    color: white;
+
+}
+#works_1{
+    position: absolute;
+    top:38%;
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    transform: translateX(15%);
+    animation: slide-inn 1s forwards;
+    display: none;
+}
+@keyframes slide-inn{
+    100%{transform: translateX(17%);}
+}
+.allthe a:hover #works_1{
+display: inline;
+}
+.allthe a:hover #works{
+    color: black;
+    }
+.allthe a:hover #works .details{
+    color:black
+}
+#works_2{
+    position: absolute;
+    top:calc(40% + 235px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    transform: translateX(15%);
+    animation: slide-inn 1s forwards;
+    display: none;
+}
+.allthe a:hover #works_2{
+    display: inline;
+    }
+.allthe a:hover #works1{
+    color: black;
+    }
+.allthe a:hover #works1 .details{
+    color:black
+    }
+#works_3{
+    position: absolute;
+    top:calc(40% + 470px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    transform: translateX(15%);
+    animation: slide-inn 1s forwards;
+    display: none;
+}
+.allthe a:hover #works_3{
+    display: inline;
+    }
+.allthe a:hover #works2{
+    color: black;
+    }
+.allthe a:hover #works2 .details{
+    color:black
+    }
+#works_4{
+    position: absolute;
+    top:calc(40% + 705px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    transform: translateX(15%);
+    animation: slide-inn 1s forwards;
+    display: none;
+}
+.allthe a:hover #works_4{
+    display: inline;
+    }
+.allthe a:hover #works3{
+    color: black;
+    }
+.allthe a:hover #works3 .details{
+    color:black
+    }
+#works_5{
+    position: absolute;
+    top:calc(40% + 940px);
+    left:15%;
+    color: white;
+    font-family: "Semibold";
+    font-size: 6.25rem;
+    transform: translateX(15%);
+    animation: slide-inn 1s forwards;
+    display: none;
+}
+.allthe a:hover #works_5{
+    display: inline;
+    }
+.allthe a:hover #works4{
+    color: black;
+    }
+.allthe a:hover #works4 .details{
+    color:black
+    }
